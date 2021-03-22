@@ -30,7 +30,7 @@ router.post("/login", async (req, res) => {
 
       // JWT sign with e variable JWT_KEY
       const token = jwt.sign({ uuid: user.uuid }, process.env.JWT_KEY);
-
+      console.log('DECRYPTED_USER',DECRYPTED_USER_KEY)
       // return JWT + KEY to frontend
       res.status(201).send({
         token: token,

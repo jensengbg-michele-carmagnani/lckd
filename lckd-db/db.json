@@ -23,6 +23,24 @@
       "username": "francesca",
       "password": "$2b$10$kqS/tMv44caKeoKcNq0ymuDG2XOJnb9AEh0VEL.l4vHbR0HCXVavK",
       "userkey": "U2FsdGVkX1/m97m9sgqdz1DWoReCq+PkVjlS+dDcFBg="
+    },
+    {
+      "uuid": "k2bwULYccv",
+      "username": "farah",
+      "password": "$2b$10$OBoF.etY3FRa6eAZnCUGZO0B5pam30z4x1NMoFiTSUoO/x9..4rFq",
+      "userkey": "U2FsdGVkX1+iRtdCfdlUwISDDP20JydR0p9XehFi+i4="
+    },
+    {
+      "uuid": "5qQErVxFoL",
+      "username": "markus",
+      "password": "$2b$10$HSWEV4DUlBZxUz0uSkkHr.wM9bErboGwuu9j0T/PuD0vQTJZlBF0O",
+      "userkey": "U2FsdGVkX19GmgH0k7ifrH1w7hqKTSELQsDF69EqZ+M="
+    },
+    {
+      "uuid": "QC8LGpqRRD",
+      "username": "cristina",
+      "password": "$2b$10$GUNdv/4cLmi2YJ4HhB3YIeOrbYBoT4CD3at.y5ng2vILrQ/Z2F7eO",
+      "userkey": "U2FsdGVkX193/TZ1OuiD2qCV9zfpTqKy1DSfmOKxiRM="
     }
   ],
   "lcked": []

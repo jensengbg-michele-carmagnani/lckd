@@ -1,10 +1,10 @@
 const { Router } = require("express");
 const { db } = require("./db");
 const router = new Router();
+
+// module required 
 const bcrypt = require("bcrypt");
-
 const CryptoJS = require("crypto-js");
-
 const shortid = require("shortid");
 
 const serverStatus = "https://http.cat/";
@@ -33,7 +33,7 @@ router.post("/", async (req, res) => {
       password: ENCRYPTED_PW, // hashed with bycrypt module
       userkey: ENCRYPTED_USER_KEY, // encrypted with with CryptoJS & the {obj} contain the USER_KEY(generate by shortid module) + env SECRET
     };
-
+    console.log('User created',user)
     // Add user to db 'user'
     db.get("user").push(user).write();
     //send back the a message to user

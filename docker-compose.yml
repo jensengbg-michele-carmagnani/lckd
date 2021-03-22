@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  lckd:
+    image: lckd-frontend
+    build:
+      context: ./lckd-frontend
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    volumes:
+      - ./lckd-frontend/src:/app/src
+      - ./lckd-frontend/scss:/app/scss
+    ports:
+      - 8080:8080
+    command: npm run serve
+
+  api:
+    image: api
+    build:
+      context: ./lckd-db
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    volumes: 
+      - ./lckd-db/routes:/app/routes:ro
+      - ./lckd-db/db:/app/db
+    ports:
+      - 3000:3000

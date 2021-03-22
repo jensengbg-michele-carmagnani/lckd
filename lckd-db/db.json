@@ -1,0 +1,29 @@
+{
+  "user": [
+    {
+      "uuid": "CDF2MKYTIk",
+      "username": "michele",
+      "password": "$2b$10$uOB7HzPz2/NwG7nrZ4T22eJ0prFBM024Hxbsi6Cvj8JcnCRFuiMhK",
+      "userkey": "U2FsdGVkX19vfqXJyTUcumcWqvEwKQkfWL2D/sXTImM="
+    },
+    {
+      "uuid": "V3aWHXSq2l",
+      "username": "emanuele",
+      "password": "$2b$10$3ixTV059B4KFCD876YIcpOLUTXc8lfbRYimvrItlJLVoidadGTNou",
+      "userkey": "U2FsdGVkX18TWTvJW3QroJ4wNf0Qwt4iqUZjrPshy6g="
+    },
+    {
+      "uuid": "NSZjin0S8n",
+      "username": "noah",
+      "password": "$2b$10$mvJc/wcgImkbA2BU72srde06rgts3lUuh..NjP30pziaSz3acO7SK",
+      "userkey": "U2FsdGVkX19cNayflVENSyT9iN/+eZntwPjfaFTtf0o="
+    },
+    {
+      "uuid": "_pGU_nFU6h",
+      "username": "francesca",
+      "password": "$2b$10$kqS/tMv44caKeoKcNq0ymuDG2XOJnb9AEh0VEL.l4vHbR0HCXVavK",
+      "userkey": "U2FsdGVkX1/m97m9sgqdz1DWoReCq+PkVjlS+dDcFBg="
+    }
+  ],
+  "lcked": []
+}

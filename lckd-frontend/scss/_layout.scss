@@ -1,0 +1,166 @@
+@import "./variables";
+@import "./components";
+
+#app {
+  background-color: var(--main-bg-color);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #login {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    .input-field {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .input-username{
+        margin-bottom: 3rem;
+      }
+     
+
+      .lb-username,
+      .lb-password {
+        align-self: flex-start;
+      }
+    }
+  }
+  #views-storedpwd {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: flex-start;
+
+      margin-bottom: 5rem;
+    }
+    .stored-pwd-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .lb-stored-pwd {
+        align-self: flex-start;
+      }
+
+      .stored-pwd {
+        height: auto;
+        width: 100%;
+        border-radius: 0.5rem;
+        border: 2px solid var(--main-text-color);
+        margin-bottom: 2rem;
+        &::-webkit-scrollbar{
+          height: 100px;
+          overflow: hidden;
+        }
+      }
+      .plain-sight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .output-plainsight {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          margin: 0;
+          background-color: var(--main-bg-color);
+          border: 1px solid #ffffff;
+          border-radius: 0.5rem;
+          width: 311px;
+          height: 62px;
+          font-size: 24px;
+          font-weight: 800;
+          text-transform: capitalize;
+          .password {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0.8rem;
+            border: 0;
+            width: 311px;
+            height: 62px;
+          }
+          .copy {
+            margin-right: 0.8rem;
+          }
+        }
+        .lb-plainsight {
+          background-color: var(--main-btn-color);
+          align-self: flex-start;
+        }
+        .btn-newlckd {
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+  #newlckd {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .input-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      label {
+        align-self: flex-start;
+      }
+      .www,
+      .username {
+        margin-bottom: 2rem;
+        // padding-left: .5rem;
+      }
+
+      .secure-password {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: var(--main-bg-color);
+        border: 1px solid #ffffff;
+        border-radius: 0.5rem;
+        width: 311px;
+        height: 62px;
+        font-size: 24px;
+        font-weight: 800;
+        text-transform: capitalize;
+
+        .img-roundarrow {
+          margin-right: 0.8rem;
+        }
+        .secure-password {
+          margin-left: 0.5rem;
+          border: 0;
+        }
+      }
+    }
+  }
+}

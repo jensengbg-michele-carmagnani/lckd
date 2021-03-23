@@ -14,32 +14,46 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+
+    .sign-up {
+      cursor: pointer;
+      margin-left: 16rem;
+    }
     .logo {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      
     }
     .input-field {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      .input-username{
+      .input-username {
         margin-bottom: 3rem;
       }
-     
 
       .lb-username,
       .lb-password {
         align-self: flex-start;
       }
     }
+    .cookie-banner {
+      position: fixed;
+      top: 90%;
+      width: fit-content;
+      margin: 0 1rem 0 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      border-radius: 1rem;
+      background-color: rgb(95, 160, 197);
+    }
   }
   #views-storedpwd {
     height: 100%;
-    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -68,7 +82,7 @@
         border-radius: 0.5rem;
         border: 2px solid var(--main-text-color);
         margin-bottom: 2rem;
-        &::-webkit-scrollbar{
+        &::-webkit-scrollbar {
           height: 100px;
           overflow: hidden;
         }

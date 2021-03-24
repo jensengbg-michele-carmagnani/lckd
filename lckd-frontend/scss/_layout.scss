@@ -14,7 +14,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-
+    
     .sign-up {
       cursor: pointer;
       margin-left: 16rem;
@@ -39,17 +39,54 @@
         align-self: flex-start;
       }
     }
+
     .cookie-banner {
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
       position: fixed;
-      top: 90%;
+      top: 100%;
       width: fit-content;
-      margin: 0 1rem 0 1rem;
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 2rem;
       border-radius: 1rem;
-      background-color: rgb(95, 160, 197);
+      background-color: rgba(45, 140, 199, 0.9);
+      color: var(--main-text-color);
+      font-weight: bold;
+      h3 {
+        text-transform: uppercase;
+      }
+    }
+    .cookies-policy {
+      font-size: 1.3rem;
+      .accept-all {
+        color: var(--main-text-color);
+      }
+    }
+    .btn-accept,
+    .btn-details {
+      width: 120px;
+      font-size: 1rem;
+      font-weight: bold;
+      margin-top: 0.7rem;
+      color: rgba($color: #000000, $alpha: 1);
+      &:hover{
+        transition: 1s ease-out;
+        background-color: var(--main-text-color);
+      }
+      &.btn-accept {
+        margin-right: 0.2rem;
+
+      }
+    }
+
+    .show-banner {
+      @include easeOut;
+    }
+    .hide-banner {
+      @include easeIn;
     }
   }
   #views-storedpwd {

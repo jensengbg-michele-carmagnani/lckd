@@ -1,5 +1,15 @@
-:root{
-  --main-text-color: #FFBD21;
-  --main-bg-color: #15085F;
+:root {
+  --main-text-color: #ffbd21;
+  --main-bg-color: #15085f;
   --main-btn-color: #ffffff;
 }
+
+@mixin easeOut {
+  transform: translate(0px, -375px);
+  transition: 1s ease-out;
+}
+@mixin easeIn {
+  transform: translate(0px, 100px);
+  transition: 1s ease-out;
+}
+
